@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>storeInfoSystem</title>
+        <vendor>humbata1</vendor>
+        <homepage href=""/>
+        <description>storeInfoSystem</description>
+        <description kind="short">storeInfoSystem</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="storeInfoSystem.jar" main="true"/>
+    <jar href="lib/glazedlists_java15-1.9.0.jar"/>
+<jar href="lib/swingx-all-1.6.4.jar"/>
+<jar href="lib/swing-layout-1.0.4.jar"/>
+<jar href="lib/mysql-connector-java-5.1.18-bin.jar"/>
+</resources>
+    <application-desc main-class="storeinfosystem.StoreInfoSystem">
+    </application-desc>
+</jnlp>
